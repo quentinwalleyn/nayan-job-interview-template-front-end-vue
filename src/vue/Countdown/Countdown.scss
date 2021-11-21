@@ -1,0 +1,44 @@
+.counter-item{
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+  .counter-item-nr{
+    background-color: #fff;
+    color: #000;
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    @media screen and (min-width: 768px){
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .counter-item-unit{
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    @media screen and (min-width: 768px){
+      font-size: 24px;
+      line-height: 60px;
+    }
+  }
+}
+
+.counter-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
